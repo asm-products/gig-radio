@@ -25,7 +25,11 @@ display: -webkit-flex;
 flex-direction: column;
 -webkit-flex-direction: column;
 }
-
+.email.InputAddOn-item{
+  display:block;
+  clear:left;
+  border-radius: 0;
+}
   #background {
     position:fixed;
     top:0;
@@ -178,7 +182,7 @@ flex-direction: column;
 -webkit-flex-direction: column;
 }
 
-  #background {
+#background {
     position:fixed;
     top:0;
     left:0;
@@ -375,6 +379,8 @@ opacity: 0.5;
 #comingsoon {
 	display: none;
 }
+
+
 /* ==============================
 PAGE STYLES
 ===============================*/
