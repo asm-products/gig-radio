@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	<link rel="stylesheet" href="./assets/css/normalize.css">
+	<link rel="stylesheet" href="./assets/css/main.css">
+	<style>
+	/*@import url(./css/mobile.css) (max-device-width: 600px);
+	@import url(./css/tablet.css) (min-device-width: 601px) and (max-device-width: 800px);
+	@import url(./css/main.css) (min-device-width: 801px);*/
+	
+	</style>
+</head>
+
+<body>
+
+	<video id="bgvid" autoplay loop>
+		<source src="./assets/video/bgvid.webmsd.webm" type="video/webm">
+		<source src="./assets/video/bgvid.mp4" type="video/mp4">
+	</video>
+<div id="background"></div>
+<div id="wrapper">
+	
+<header>
+	  <div id="logo"><img src="./assets/img/gr-icon-vector-name.svg"><h1>GIG RADIO</h1><h2 id="comingsoon">COMING SOON</h2></div>
+</header>
+<section id="slug">
+	 <h2>Discover music, locally</h2>
+	 <p>Gig Radio lets you listen to music by bands playing near you tonight.</p>
+</section>
+  
+<section id="signup">
+	<div class="InputAddOn">
+		  <input type="email" class="InputAddOn-field" placeholder="what's your email?">
+		  <button type="submit" value="Submit" class="InputAddOn-item">Notify Me</button>
+	</div>
+</section>
+  
+ </div>
+<footer>
+	  <div id="social">
+	  	<a href="http://facebook.com/gigradio" target="_blank"><img src="./assets/img/icon-fb.png"></a><a href="http://twitter.com/getgigradio" target="_blank"><img src="./assets/img/icon-twitter.png"></a>
+	  </div>
+	  <div id="copyright">
+		<p>&copy; 2014 <a href="http://goodtohear.co.uk/" target="_blank">Good To Hear</a></p>
+	  </div>
+</footer>
+<!-- le scripts -->
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+$("#bgvid").bind('ended', function(){
+     this.play();
+});
+</script>
+
+
+</body>
+</html>
