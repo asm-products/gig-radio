@@ -1,0 +1,5 @@
+markdown: redcarpet
+exclude:
+  - Rakefile
+  - README.md
+  - LICENSE
