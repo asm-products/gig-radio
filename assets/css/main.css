@@ -4,7 +4,7 @@ IMPORTS
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,100);
 @font-face {
     font-family: Tungsten-Semibold;
-    src: url(../fonts/Tungsten-Semibold.woff);
+    src: url(../assets/fonts/Tungsten-Semibold.woff);
 }
 
 /* ==============================
@@ -32,7 +32,7 @@ flex-direction: column;
     left:0;
     width:100%;
     height:100%;
-    background: url(../img/bg-pink-mobile.jpg) 0 0 no-repeat fixed !important;
+    background: url(../assets/img/bg-pink-mobile.jpg) 0 0 no-repeat fixed !important;
     background-size: contain;
     z-index: -999;
 }
@@ -184,7 +184,7 @@ flex-direction: column;
     left:0;
     width:100%;
     height:100%;
-    background: url(../img/bg-pink-tablet.jpg) 0 0 no-repeat fixed !important;
+    background: url(../assets/img/bg-pink-tablet.jpg) 0 0 no-repeat fixed !important;
     background-size: contain;
     z-index: -999;
 }
@@ -352,7 +352,7 @@ video#bgvid {
 position: fixed; right: 0; bottom: 0;
 min-width: 100%; min-height: 100%;
 width: auto; height: auto; z-index: -100;
-background: url(../img/bg.jpg) no-repeat;
+background: url(../assets/img/bg.jpg) no-repeat;
 background-size: cover;
 opacity: 0.5;
 }
