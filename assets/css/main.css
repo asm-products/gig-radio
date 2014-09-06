@@ -222,12 +222,12 @@ flex-direction: column;
 	padding: 0 5px 0;
 }
 
-#slug p {	
+#slug p {
 	margin: -40px auto 65px;
 	font-size: 1.5em;
 	font-style: italic;
 	max-width: 600px;
-	
+
 }
 
 #signup  {
@@ -384,7 +384,7 @@ h2 {
 	margin-top: -40px;
 	font-size: 1.7em;
 	font-style:  italic;
-	max-width: 650px;
+	max-width: 550px;
 }
 #signup  {
 	margin: 0 auto;
