@@ -2,10 +2,7 @@
 IMPORTS
 ===============================*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,100);
-@font-face {
-    font-family: Tungsten-Semibold;
-    src: url(/assets/fonts/Tungsten-Semibold.woff);
-}
+
 
 /* ==============================
 GLOBAL STYLES
@@ -25,11 +22,7 @@ display: -webkit-flex;
 flex-direction: column;
 -webkit-flex-direction: column;
 }
-.email.InputAddOn-item{
-  display:block;
-  clear:left;
-  border-radius: 0;
-}
+
   #background {
     position:fixed;
     top:0;
@@ -66,12 +59,6 @@ flex-direction: column;
 	display: none;
 }
 
-#comingsoon {
-	font-family: 'Tungsten-Semibold', serif;
-	font-size: 3em;
-	margin-top: 0px;
-	display: none;
-}
 
 #slug {
 	margin-bottom: 40px;
@@ -84,7 +71,8 @@ flex-direction: column;
 }
 
 #slug p {
-	margin-top: -15px;
+	margin: -15px auto 0;
+	max-width: 270px;
 }
 
 #signup  {
@@ -124,35 +112,41 @@ flex-direction: column;
 	font-weight: bold;
 	opacity: 1;
 }
-.InputAddOn {
+
+/*.InputAddOn {
 	display: flex;
 	display: -webkit-flex;
 	margin-bottom: 100px;
-}
+}*/
 
 .InputAddOn-field {
 	flex: 1;
 	-webkit-flex: 1;
 	/* field styles */
-	border-radius: 2px 0 0 2px;
+	border-radius: 0;
 	opacity: 0.6;
 	border: none;
 	background-color: white;
-	height: 50px;
+	height: 30px;
+	width: 220px;
 	font-family: 'Roboto', serif;
 	font-weight: 300;
-	text-align: left;
+	text-align: center;
 	color: black;
-	padding-left: 20px;
+	padding: 15px;
 }
 
 .InputAddOn-item {
+	flex: 1;
+	-webkit-flex: 1;
 	/* item styles */
+	border-radius: 0;
 	background-color: #30aa4b;
 	border: none;
 	font-family: 'Roboto', serif;
 	font-weight: 100;
 	padding: 15px;
+	width: 250px;
 }
 
 input:focus::-webkit-input-placeholder { color:transparent; }
@@ -218,13 +212,6 @@ flex-direction: column;
 	display: none;
 }
 
-#comingsoon {
-	font-family: 'Tungsten-Semibold', serif;
-	font-size: 3em;
-	margin-top: 0px;
-	display: none;
-}
-
 #slug {
 	margin-bottom: 40px;
 	font-family: 'Roboto', serif;
@@ -235,11 +222,12 @@ flex-direction: column;
 	padding: 0 5px 0;
 }
 
-#slug p {
-	margin-top: -40px;
-	margin-bottom: 65px;
+#slug p {	
+	margin: -40px auto 65px;
 	font-size: 1.5em;
 	font-style: italic;
+	max-width: 600px;
+	
 }
 
 #signup  {
@@ -376,9 +364,6 @@ opacity: 0.5;
 	display: none;
 }
 
-#comingsoon {
-	display: none;
-}
 
 
 /* ==============================
@@ -395,10 +380,11 @@ h2,p {
 h2 {
 	font-size: 3em;
 }
-p {
+#slug p {
 	margin-top: -40px;
 	font-size: 1.7em;
 	font-style:  italic;
+	max-width: 650px;
 }
 #signup  {
 	margin: 0 auto;
@@ -470,7 +456,7 @@ input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
 
 footer {
 	margin: 0 auto;
-	font-size: 0.6em;
+	font-size: 0.9em;
 }
 #social {
 	text-align: center;
