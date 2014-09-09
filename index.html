@@ -82,6 +82,12 @@
 
     </div>
 
+<script>
+$("#bgvid").bind('ended', function(){
+     this.play();
+});
+</script>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -90,11 +96,7 @@
     <script src="./assets/js/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
-<script>
-$("#bgvid").bind('ended', function(){
-     this.play();
-});
-</script>
+
 <script>
 
 console.log("***");
