@@ -28,6 +28,8 @@ a:hover {
 html,
 body {
   height: 100%;
+  -webkit-font-smoothing: antialiased !important;
+
 }
 body {
   border-top: #ae0b46 5px solid;
@@ -85,13 +87,14 @@ body {
 
 .cover-heading {
   font-size: 3em;
-  font-weight: 100;
+  font-weight: 300;
   opacity: 0.8;
+
 }
 .lead {
   opacity: 0.8;
   font-size: 1.8em;
-  font-weight: 100;
+  font-weight: 300;
   font-style: italic;
 }
 
